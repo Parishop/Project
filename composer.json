@@ -1,0 +1,29 @@
+{
+    "name": "parishop/project",
+    "type": "project",
+    "description": "Project PHPixie 3 with Parishop modules",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": [
+                "src/",
+                "tests/",
+                "bundles/app/src/"
+            ]
+        }
+    },
+    "require": {
+        "phpixie/default-bundle": "~3.1",
+        "phpixie/bundle-framework": "~3.1",
+        "parishop/processors": "~1.0"
+    },
+    "require-dev": {
+        "phpixie/test": "~3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.*-dev"
+        }
+    }
+}
+

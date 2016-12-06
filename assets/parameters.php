@@ -1,11 +1,3 @@
-# Project
-Project PHPixie 3 with Parishop modules
-
-## Installation
-
-Create file "/assets/parameters.php"
-
-```php
 <?php
 return [
     'database' => [
@@ -52,4 +44,4 @@ return [
         ],
     ],
 ];
-```
+
